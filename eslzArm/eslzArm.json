@@ -2596,7 +2596,7 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2020-10-01",
             "name": "[variables('deploymentNames').pipOnNicPolicyDeploymentName]",
-            "scope": "[variables('scopes').corpManagementGroup]",
+            "scope": "[variables('scopes').onlineManagementGroup]",
             "location": "[deployment().location]",
             "dependsOn": [
                 "policyCompletion"
